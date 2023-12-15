@@ -1,4 +1,4 @@
 enum URLPathComponentMatchResult {
-  case matches((key: String, value: Any)?)
-  case notMatches
+    case matches((key: String, value: Any)?)
+    case notMatches
 }
