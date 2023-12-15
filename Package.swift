@@ -11,6 +11,10 @@ let package = Package(
             name: "URLNavigator",
             targets: ["URLNavigator"]
         ),
+        .library(
+            name: "URLMatcher",
+            targets: ["URLMatcher"]
+        )
     ],
     dependencies: [
         .package(url: "https://github.com/devxoul/Stubber", exact: "1.5.3"),
